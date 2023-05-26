@@ -3,5 +3,5 @@ projects:
     dir: dev
     dependent_modules: ["./modules/"]
   - name: prod
-    dirs: prod
+    dir: prod
     dependent_modules: ["./modules/"]
