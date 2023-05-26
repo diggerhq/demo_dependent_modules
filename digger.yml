@@ -1,0 +1,7 @@
+projects:
+  - name: dev
+    dir: dev
+    dependent_modules: ["./modules/"]
+  - name: prod
+    dirs: prod
+    dependent_modules: ["./modules/"]
