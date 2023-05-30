@@ -1,7 +1,7 @@
 projects:
   - name: dev
     dir: dev
-    dependent_modules: ["./modules/"]
+    include_patterns: ["./modules/**"]
   - name: prod
     dir: prod
-    dependent_modules: ["./modules/"]
+    include_patterns: ["./modules/"]
