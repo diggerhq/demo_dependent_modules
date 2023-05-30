@@ -5,4 +5,4 @@ projects:
   - name: prod
     dir: ./prod
     include_patterns: ["./modules/**"]
-    exclude_patterns: ["./modules/moduleA/**]
+    exclude_patterns: ["./modules/moduleA/**"]
