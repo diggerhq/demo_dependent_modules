@@ -1,7 +1,7 @@
 projects:
-  - name: dev
-    dir: ./dev
+  - name: a_dev
+    dir: ./proj_a/dev
     include_patterns: ["./modules/moduleA/**"]
-  - name: prod
-    dir: ./prod
+  - name: a_prod
+    dir: ./proj_b/prod
     include_patterns: ["./modules/moduleB/**"]
